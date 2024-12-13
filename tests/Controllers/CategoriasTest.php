@@ -16,7 +16,7 @@ class CategoriasTest extends CIUnitTestCase
     protected $migrate = false;
     protected $model;
     protected $DBGroup = 'tests';
-
+    
     protected function setUp(): void
     {
         parent::setUp();
@@ -30,7 +30,7 @@ class CategoriasTest extends CIUnitTestCase
             'nombre' => 'Categoría Test',
             'descripcion' => 'Descripción de prueba'
         ];
-
+        
         if (!$this->model->where('nombre', $data['nombre'])->first()) {
             $this->model->insert($data);
         }
@@ -38,7 +38,10 @@ class CategoriasTest extends CIUnitTestCase
 
     public function tearDown(): void
     {
+        // Limpiamos los datos de prueba
         $this->model->where('nombre', 'Categoría Test')->delete();
+        $this->model->where('nombre', 'Nueva Categoría')->delete();
+        $this->model->where('nombre', 'Categoría Actualizada')->delete();
         parent::tearDown();
     }
 
@@ -52,10 +55,10 @@ class CategoriasTest extends CIUnitTestCase
     {
         $result = $this->withSession([
             'isLoggedIn' => true,
-            'id' => 1,  // ID del usuario admin
+            'id' => 1,
             'tipo_usuario' => 'administrador'
         ])->get('admin/categorias');
-
+        
         $result->assertOK();
         $result->assertSee('Categoría Test');
     }
@@ -80,7 +83,7 @@ class CategoriasTest extends CIUnitTestCase
     public function testEditReturnsCategoryDataAsJson()
     {
         $categoria = $this->model->where('nombre', 'Categoría Test')->first();
-
+        
         $result = $this->withSession([
             'isLoggedIn' => true,
             'id' => 1,
@@ -88,17 +91,18 @@ class CategoriasTest extends CIUnitTestCase
         ])->get("admin/categorias/edit/{$categoria['id_categoria']}");
 
         $result->assertOK();
-        $result->assertJSON([
+        $expectedData = [
             'id_categoria' => $categoria['id_categoria'],
             'nombre' => 'Categoría Test',
             'descripcion' => 'Descripción de prueba'
-        ]);
+        ];
+        $this->assertEquals($expectedData, json_decode($result->getJSON(), true));
     }
 
     public function testUpdateModifiesExistingCategory()
     {
         $categoria = $this->model->where('nombre', 'Categoría Test')->first();
-
+        
         $data = [
             'nombre' => 'Categoría Actualizada',
             'descripcion' => 'Descripción actualizada'

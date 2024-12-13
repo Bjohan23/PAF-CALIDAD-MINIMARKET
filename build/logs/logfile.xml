@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Tests\Controllers\CategoriasTest" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" tests="6" assertions="14" errors="0" failures="0" skipped="0" time="0.125501">
-    <testcase name="testIndexRedirectsIfNotLoggedIn" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="45" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="2" time="0.063769"/>
-    <testcase name="testIndexDisplaysCategoriesWhenLoggedIn" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="51" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="2" time="0.012336"/>
-    <testcase name="testStoreCreatesNewCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="63" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.012213"/>
-    <testcase name="testEditReturnsCategoryDataAsJson" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="80" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="1" time="0.013221"/>
-    <testcase name="testUpdateModifiesExistingCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="98" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.011847"/>
-    <testcase name="testDeleteRemovesCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="117" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.012117"/>
+  <testsuite name="Tests\Controllers\CategoriasTest" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" tests="6" assertions="15" errors="0" failures="0" skipped="0" time="0.129624">
+    <testcase name="testIndexRedirectsIfNotLoggedIn" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="48" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="2" time="0.064663"/>
+    <testcase name="testIndexDisplaysCategoriesWhenLoggedIn" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="54" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="2" time="0.013022"/>
+    <testcase name="testStoreCreatesNewCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="66" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.014176"/>
+    <testcase name="testEditReturnsCategoryDataAsJson" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="83" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="2" time="0.011920"/>
+    <testcase name="testUpdateModifiesExistingCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="102" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.013908"/>
+    <testcase name="testDeleteRemovesCategory" file="C:\laragon\www\paf\tests\Controllers\CategoriasTest.php" line="121" class="Tests\Controllers\CategoriasTest" classname="Tests.Controllers.CategoriasTest" assertions="3" time="0.011935"/>
   </testsuite>
 </testsuites>
