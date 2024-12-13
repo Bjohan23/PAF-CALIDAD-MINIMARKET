@@ -1,4 +1,3 @@
-Login (Tests\Controllers\Login)
- [x] It fails to authenticate invalid user
- [x] It creates a new user
+Metodo Pago (Tests\Controllers\MetodoPago)
+ [x] It creates a new payment method
 

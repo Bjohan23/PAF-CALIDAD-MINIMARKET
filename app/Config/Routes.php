@@ -19,7 +19,7 @@ $routes->post('registro', 'Tienda::registro');             // Procesar el regist
 $routes->get('recuperar-password', 'Tienda::recuperarPassword');  // Formulario recuperación contraseña
 $routes->post('recuperar-password/procesar', 'Tienda::procesarRecuperacion'); // Procesar recuperación
 $routes->get('logout', 'Tienda::logout');                  // Cerrar sesión del cliente
-
+$routes->post('metodo-pago/create', 'MetodoPago::create');
 
 $routes->get('ventas/last-comprobante-numbers', 'Ventas::getLastComprobanteNumbers'); // Obtener números de comprobante
 $routes->post('ventas/store', 'Ventas::store');            // Guardar venta
@@ -29,7 +29,7 @@ $routes->get('getMetodoPago', 'MetodoPago::getMetodoPago'); // Ver metodos de pa
 // =====================================
 // Rutas del Panel Administrativo
 // =====================================
-$routes->group('admin', function($routes) {
+$routes->group('admin', function ($routes) {
     // Autenticación y Dashboard Admin
     $routes->get('/', 'Home::index');                           // Panel principal admin
     $routes->get('home', 'Home::index');                        // Alias del panel
@@ -81,19 +81,19 @@ $routes->group('admin', function($routes) {
 // =====================================
 // Rutas de la Tienda (Frontend)
 // =====================================
-$routes->group('tienda', ['namespace' => 'App\Controllers'], function($routes) {
+$routes->group('tienda', ['namespace' => 'App\Controllers'], function ($routes) {
     // Catálogo y Productos
     $routes->get('productos', 'Tienda::productos');            // Listado de productos
     $routes->get('producto/(:num)', 'Tienda::producto/$1');    // Ver producto individual
     $routes->get('categoria/(:num)', 'Tienda::categoria/$1');  // Productos por categoría
     $routes->get('buscar', 'Tienda::buscar');                  // Búsqueda de productos
-    
+
     // Carrito de Compras
     $routes->get('carrito', 'Tienda::carrito');                // Ver carrito
     $routes->post('carrito/agregar', 'Tienda::agregarCarrito'); // Agregar producto
     $routes->post('carrito/actualizar', 'Tienda::actualizarCarrito'); // Actualizar cantidad
     $routes->delete('carrito/eliminar/(:num)', 'Tienda::eliminarCarrito/$1'); // Quitar producto
-    
+
     // Proceso de Compra
     $routes->get('checkout', 'Tienda::checkout');              // Página de checkout
     $routes->post('checkout/procesar', 'Tienda::procesarCheckout'); // Procesar compra
@@ -103,7 +103,7 @@ $routes->group('tienda', ['namespace' => 'App\Controllers'], function($routes) {
 // =====================================
 // Área Privada del Cliente
 // =====================================
-$routes->group('mi-cuenta', ['filter' => 'authCliente'], function($routes) {
+$routes->group('mi-cuenta', ['filter' => 'authCliente'], function ($routes) {
     $routes->get('/', 'Tienda::miCuenta');                     // Dashboard cliente
     $routes->get('pedidos', 'Tienda::misPedidos');            // Ver pedidos
     $routes->get('pedido/(:num)', 'Tienda::detallePedido/$1'); // Detalle pedido

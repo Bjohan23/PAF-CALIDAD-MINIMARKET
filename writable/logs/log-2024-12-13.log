@@ -3922,3 +3922,28 @@ Stack trace:
 #22 C:\laragon\www\paf\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
 #23 C:\laragon\www\paf\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
 #24 {main}
+ERROR - 2024-12-13 16:36:45 --> mysqli_sql_exception: Unknown column 'activo' in 'where clause' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\paf\app\Controllers\MetodoPago.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\MetodoPago->getMetodoPago()
+#8 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MetodoPago))
+#9 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#10 C:\laragon\www\paf\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#11 C:\laragon\www\paf\system\Test\FeatureTestTrait.php(231): Tests\Controllers\MetodoPagoTest->call('GET', 'getMetodoPago', NULL)
+#12 C:\laragon\www\paf\tests\Controllers\MetodoPagoTest.php(50): Tests\Controllers\MetodoPagoTest->get('getMetodoPago')
+#13 C:\laragon\www\paf\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\MetodoPagoTest->it_gets_all_active_payment_methods()
+#14 C:\laragon\www\paf\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#15 C:\laragon\www\paf\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#16 C:\laragon\www\paf\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\MetodoPagoTest))
+#17 C:\laragon\www\paf\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#18 C:\laragon\www\paf\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#19 C:\laragon\www\paf\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#20 C:\laragon\www\paf\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#21 C:\laragon\www\paf\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#22 {main}
