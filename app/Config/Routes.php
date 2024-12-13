@@ -68,6 +68,7 @@ $routes->group('admin', function($routes) {
     $routes->get('clientes/edit/(:num)', 'Clientes::edit/$1'); // Editar cliente
     $routes->post('clientes/update/(:num)', 'Clientes::update/$1'); // Guardar edición
     $routes->get('clientes/delete/(:num)', 'Clientes::delete/$1'); // Eliminar cliente
+    $routes->get('clientes/reactivar/(:num)', 'Clientes::reactivar/$1');
 
     // Gestión de Usuarios Admin
     $routes->get('administrador', 'Administrador::index');      // Listar admins
