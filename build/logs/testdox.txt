@@ -1,5 +1,8 @@
 Clientes (Tests\Controllers\Clientes)
- [ ] Delete with sales deactivates client
- [ ] Update modifies existing client
- [ ] Reactivate client
+ [x] Index method
+ [x] Store method
+ [x] Edit method
+ [x] Update method
+ [x] Delete method
+ [x] Reactivar method
 

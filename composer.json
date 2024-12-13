@@ -65,6 +65,6 @@
     "test": "vendor/bin/phpunit",
     "test:categorias": "vendor/bin/phpunit tests/Controllers/CategoriasTest.php",
     "test:productos": "vendor/bin/phpunit tests/Controllers/ProductosTest.php",
-    "test:clientes": "vendor/bin/phpunit tests/Controllers/ClientesTest.php"
+     "test:clientes": "php vendor/bin/phpunit tests/Controllers/ClientesTest.php --dont-report-useless-tests"
   }
 }

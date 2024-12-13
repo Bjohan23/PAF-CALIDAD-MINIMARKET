@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers;
 
 use App\Models\ClienteModel;
@@ -23,8 +24,8 @@ class Clientes extends BaseController
         foreach ($clientes as &$cliente) {
             // Obtener total de compras
             $compras = $ventaModel->where('id_cliente', $cliente['id_cliente'])
-                                ->where('estado', 'completada')
-                                ->findAll();
+                ->where('estado', 'completada')
+                ->findAll();
 
             $cliente['total_compras'] = count($compras);
             $cliente['monto_total'] = array_sum(array_column($compras, 'total'));
@@ -39,7 +40,7 @@ class Clientes extends BaseController
     public function store()
     {
         $model = new ClienteModel();
-        
+
         // Validación
         $rules = [
             'dni' => 'required|is_unique[cliente.dni]',
@@ -71,10 +72,10 @@ class Clientes extends BaseController
         try {
             $model->save($data);
             return redirect()->to(base_url('admin/clientes'))
-                           ->with('success', 'Cliente creado exitosamente');
+                ->with('success', 'Cliente creado exitosamente');
         } catch (\Exception $e) {
             return redirect()->back()->withInput()
-                           ->with('error', 'Error al crear el cliente: ' . $e->getMessage());
+                ->with('error', 'Error al crear el cliente: ' . $e->getMessage());
         }
     }
 
@@ -99,7 +100,7 @@ class Clientes extends BaseController
     public function update($id)
     {
         $model = new ClienteModel();
-        
+
         // Validación
         $rules = [
             'dni' => "required|is_unique[cliente.dni,id_cliente,$id]",
@@ -123,19 +124,17 @@ class Clientes extends BaseController
             'is_active' => $this->request->getPost('is_active') ?? 1
         ];
 
-        // Si se proporciona una nueva contraseña, actualizarla
-        $newPassword = $this->request->getPost('password');
-        if (!empty($newPassword)) {
-            $data['password'] = password_hash($newPassword, PASSWORD_DEFAULT);
-        }
-
         try {
-            $model->update($id, $data);
+            if (!$model->update($id, $data)) {
+                return redirect()->back()->withInput()
+                    ->with('error', 'Error al actualizar el cliente: ' . implode(', ', $model->errors()));
+            }
+
             return redirect()->to(base_url('admin/clientes'))
-                           ->with('success', 'Cliente actualizado exitosamente');
+                ->with('success', 'Cliente actualizado exitosamente');
         } catch (\Exception $e) {
             return redirect()->back()->withInput()
-                           ->with('error', 'Error al actualizar el cliente: ' . $e->getMessage());
+                ->with('error', 'Error al actualizar el cliente: ' . $e->getMessage());
         }
     }
 
@@ -152,20 +151,20 @@ class Clientes extends BaseController
             try {
                 $model->update($id, ['is_active' => 0]);
                 return redirect()->to(base_url('admin/clientes'))
-                           ->with('warning', 'El cliente tiene ventas asociadas, se ha desactivado en lugar de eliminar');
+                    ->with('warning', 'El cliente tiene ventas asociadas, se ha desactivado en lugar de eliminar');
             } catch (\Exception $e) {
                 return redirect()->to(base_url('admin/clientes'))
-                ->with('error', 'Error al desactivar el cliente: ' . $e->getMessage());
+                    ->with('error', 'Error al desactivar el cliente: ' . $e->getMessage());
             }
         } else {
             // Si no tiene ventas, eliminar completamente
             try {
                 $model->delete($id);
                 return redirect()->to(base_url('admin/clientes'))
-                           ->with('success', 'Cliente eliminado exitosamente');
+                    ->with('success', 'Cliente eliminado exitosamente');
             } catch (\Exception $e) {
                 return redirect()->to(base_url('admin/clientes'))
-                ->with('error', 'Cliente eliminado exitosamente');
+                    ->with('error', 'Cliente eliminado exitosamente');
             }
         }
     }
@@ -177,10 +176,10 @@ class Clientes extends BaseController
         try {
             $model->update($id, ['is_active' => 1]);
             return redirect()->to(base_url('admin/clientes'))
-            ->with('success', 'Cliente reactivado exitosamente');
+                ->with('success', 'Cliente reactivado exitosamente');
         } catch (\Exception $e) {
             return redirect()->to(base_url('admin/clientes'))
-            ->with('error', 'Error al reactivar el cliente:' . $e->getMessage());
+                ->with('error', 'Error al reactivar el cliente:' . $e->getMessage());
         }
     }
 

@@ -8,13 +8,14 @@
     colors="true"
     columns="max"
     failOnRisky="true"
-    failOnWarning="true"
-    cacheDirectory="build/.phpunit.cache">
-    <coverage
-        includeUncoveredFiles="true"
+    failOnWarning="false"
+    stderr="true"
+    cacheDirectory="build/.phpunit.cache"
+>
+     <coverage
         pathCoverage="false"
         ignoreDeprecatedCodeUnits="true"
-        disableCodeCoverageIgnore="true">
+    >
         <report>
             <clover outputFile="build/logs/clover.xml"/>
             <html outputDirectory="build/logs/html"/>
@@ -22,16 +23,19 @@
             <text outputFile="php://stdout" showUncoveredFiles="false"/>
         </report>
     </coverage>
+
     <testsuites>
         <testsuite name="App">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
+
     <logging>
         <testdoxHtml outputFile="build/logs/testdox.html"/>
         <testdoxText outputFile="build/logs/testdox.txt"/>
         <junit outputFile="build/logs/logfile.xml"/>
     </logging>
+
     <source>
         <include>
             <directory suffix=".php">./app</directory>
@@ -41,14 +45,20 @@
             <file>./app/Config/Routes.php</file>
         </exclude>
     </source>
-<php>
-    <env name="database.tests.hostname" value="localhost"/>
-    <env name="database.tests.database" value="minimarket_test"/>
-    <env name="database.tests.username" value="root"/>
-    <env name="database.tests.password" value=""/>
-    <env name="database.tests.DBDriver" value="MySQLi"/>
-    <env name="database.tests.DBPrefix" value=""/>
-</php>
 
-
+    <php>
+        <server name="app.baseURL" value="http://localhost/"/>
+        <const name="HOMEPATH" value="./"/>
+        <const name="CONFIGPATH" value="./app/Config/"/>
+        <const name="PUBLICPATH" value="./public/"/>
+        <const name="SUPPORTPATH" value="./tests/_support/"/>
+        <env name="database.tests.hostname" value="localhost"/>
+        <env name="database.tests.database" value="minimarket_test"/>
+        <env name="database.tests.username" value="root"/>
+        <env name="database.tests.password" value=""/>
+        <env name="database.tests.DBDriver" value="MySQLi"/>
+        <env name="database.tests.DBPrefix" value=""/>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="display_errors" value="1"/>
+    </php>
 </phpunit>

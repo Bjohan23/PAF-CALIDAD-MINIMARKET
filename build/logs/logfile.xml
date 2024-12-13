@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Tests\Controllers\ClientesTest" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.000000">
-    <testcase name="testDeleteWithSalesDeactivatesClient" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="58" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="0" time="0.000000">
-      <error type="InvalidArgumentException">Tests\Controllers\ClientesTest::testDeleteWithSalesDeactivatesClient&#13;
-InvalidArgumentException: The specified seeder is not a valid file: C:\laragon\www\paf\tests\_support\Database/Seeds/TestSeeder.php
-&#13;
-C:\laragon\www\paf\system\Database\Seeder.php:132
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:226
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:212
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:193
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:61
-C:\laragon\www\paf\system\Test\CIUnitTestCase.php:251
-C:\laragon\www\paf\tests\Controllers\ClientesTest.php:27</error>
-    </testcase>
-    <testcase name="testUpdateModifiesExistingClient" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="92" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="0" time="0.000000">
-      <error type="InvalidArgumentException">Tests\Controllers\ClientesTest::testUpdateModifiesExistingClient&#13;
-InvalidArgumentException: The specified seeder is not a valid file: C:\laragon\www\paf\tests\_support\Database/Seeds/TestSeeder.php
-&#13;
-C:\laragon\www\paf\system\Database\Seeder.php:132
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:226
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:212
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:193
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:61
-C:\laragon\www\paf\system\Test\CIUnitTestCase.php:251
-C:\laragon\www\paf\tests\Controllers\ClientesTest.php:27</error>
-    </testcase>
-    <testcase name="testReactivateClient" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="122" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="0" time="0.000000">
-      <error type="InvalidArgumentException">Tests\Controllers\ClientesTest::testReactivateClient&#13;
-InvalidArgumentException: The specified seeder is not a valid file: C:\laragon\www\paf\tests\_support\Database/Seeds/TestSeeder.php
-&#13;
-C:\laragon\www\paf\system\Database\Seeder.php:132
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:226
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:212
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:193
-C:\laragon\www\paf\system\Test\DatabaseTestTrait.php:61
-C:\laragon\www\paf\system\Test\CIUnitTestCase.php:251
-C:\laragon\www\paf\tests\Controllers\ClientesTest.php:27</error>
-    </testcase>
+  <testsuite name="Tests\Controllers\ClientesTest" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" tests="6" assertions="14" errors="0" failures="0" skipped="0" time="0.582722">
+    <testcase name="testIndexMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="42" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="2" time="0.236910"/>
+    <testcase name="testStoreMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="50" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="2" time="0.073394"/>
+    <testcase name="testEditMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="73" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="1" time="0.067901"/>
+    <testcase name="testUpdateMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="80" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.070401"/>
+    <testcase name="testDeleteMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="96" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.066634"/>
+    <testcase name="testReactivarMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="104" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.067483"/>
   </testsuite>
 </testsuites>
