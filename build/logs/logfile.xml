@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Tests\Controllers\ClientesTest" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" tests="6" assertions="14" errors="0" failures="0" skipped="0" time="0.582722">
-    <testcase name="testIndexMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="42" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="2" time="0.236910"/>
-    <testcase name="testStoreMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="50" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="2" time="0.073394"/>
-    <testcase name="testEditMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="73" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="1" time="0.067901"/>
-    <testcase name="testUpdateMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="80" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.070401"/>
-    <testcase name="testDeleteMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="96" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.066634"/>
-    <testcase name="testReactivarMethod" file="C:\laragon\www\paf\tests\Controllers\ClientesTest.php" line="104" class="Tests\Controllers\ClientesTest" classname="Tests.Controllers.ClientesTest" assertions="3" time="0.067483"/>
+  <testsuite name="Tests\Controllers\AccountTest" file="C:\laragon\www\paf\tests\Controllers\AccountTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.161202">
+    <testcase name="it_redirects_to_login_when_user_is_not_logged_in" file="C:\laragon\www\paf\tests\Controllers\AccountTest.php" line="50" class="Tests\Controllers\AccountTest" classname="Tests.Controllers.AccountTest" assertions="2" time="0.161202"/>
   </testsuite>
 </testsuites>

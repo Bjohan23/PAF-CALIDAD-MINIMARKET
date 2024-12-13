@@ -3740,3 +3740,23 @@ Stack trace:
 #15 C:\laragon\www\paf\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
 #16 C:\laragon\www\paf\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
 #17 {main}
+DEBUG - 2024-12-13 16:13:39 --> Account Controller - Session Data: Array
+(
+    [isLoggedIn] => 1
+    [user] => Array
+        (
+            [nombre] => John
+            [apellido] => Doe
+            [email] => john.doe@example.com
+            [dni] => 12345678
+            [telefono] => 123456789
+            [tipo_usuario] => admin
+            [created_at] => 2024-01-01 10:00:00
+        )
+
+)
+
+DEBUG - 2024-12-13 16:13:39 --> Account Controller - Session Data: Array
+(
+)
+

@@ -1,8 +1,3 @@
-Clientes (Tests\Controllers\Clientes)
- [x] Index method
- [x] Store method
- [x] Edit method
- [x] Update method
- [x] Delete method
- [x] Reactivar method
+Account (Tests\Controllers\Account)
+ [x] It redirects to login when user is not logged in
 
