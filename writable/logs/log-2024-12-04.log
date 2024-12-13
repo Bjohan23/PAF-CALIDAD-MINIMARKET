@@ -1,0 +1,17 @@
+INFO - 2024-12-04 19:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 19:47:42 --> Layout - Estado de sesión: {"session_id":"cdepeuth0i18pkojs1b6db204t3l5neu","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-04 19:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 19:47:45 --> Layout - Estado de sesión: {"session_id":"cdepeuth0i18pkojs1b6db204t3l5neu","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-04 19:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 19:47:52 --> Layout - Estado de sesión: {"session_id":"cdepeuth0i18pkojs1b6db204t3l5neu","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-04 19:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 19:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 19:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 19:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 20:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 20:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 20:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 20:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 20:21:43 --> Datos recibidos en store: {"id_cliente":1,"id_usuario":1,"metodo_pago_id":2,"tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":2.4,"monto_recibido":2.4,"detalles":[{"id_producto":2,"cantidad":2,"precio_unitario":1.2,"subtotal":2.4}]}
+DEBUG - 2024-12-04 20:21:44 --> Datos preparados para inserción: {"id_cliente":1,"id_usuario":1,"metodo_pago_id":2,"tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":2.4,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-2.4"}
+DEBUG - 2024-12-04 20:21:45 --> Venta creada con ID: 2

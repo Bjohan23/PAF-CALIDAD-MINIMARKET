@@ -1,0 +1,8 @@
+Categorias (Tests\Controllers\Categorias)
+ [x] Index redirects if not logged in
+ [x] Index displays categories when logged in
+ [x] Store creates new category
+ [x] Edit returns category data as json
+ [x] Update modifies existing category
+ [x] Delete removes category
+

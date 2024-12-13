@@ -1,0 +1,2087 @@
+INFO - 2024-12-03 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:12:12 --> Datos recibidos: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 02:12:12 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(184): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 02:12:12 --> Error en store: Error al crear la venta
+INFO - 2024-12-03 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:12:18 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:25:38 --> Datos recibidos: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":4.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 02:25:38 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(184): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 02:25:38 --> Error en store: Error al crear la venta
+INFO - 2024-12-03 02:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:25:44 --> Datos recibidos: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":4.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 02:25:44 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(184): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 02:25:44 --> Error en store: Error al crear la venta
+INFO - 2024-12-03 02:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:30:55 --> Datos recibidos: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":4.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 02:30:55 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(184): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 02:30:55 --> Error en store: Error al crear la venta
+INFO - 2024-12-03 02:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:35:35 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:35:39 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:35:57 --> Layout - Estado de sesión: {"session_id":"4vulvklrk8u6clpq0j72t6j1gl37t5i6","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 02:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:35:59 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:36:01 --> Layout - Estado de sesión: {"session_id":"4vulvklrk8u6clpq0j72t6j1gl37t5i6","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 02:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:36:03 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:36:18 --> Layout - Estado de sesión: {"session_id":"4vulvklrk8u6clpq0j72t6j1gl37t5i6","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 02:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:36:19 --> Layout - Estado de sesión: {"session_id":"4vulvklrk8u6clpq0j72t6j1gl37t5i6","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 02:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:36:26 --> Layout - Estado de sesión: {"session_id":"4vulvklrk8u6clpq0j72t6j1gl37t5i6","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 02:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:36:47 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:37:06 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:37:07 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:37:25 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+ERROR - 2024-12-03 02:37:26 --> Error en store: Faltan datos requeridos
+ERROR - 2024-12-03 02:37:26 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+INFO - 2024-12-03 02:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:37:30 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+ERROR - 2024-12-03 02:37:30 --> Error en store: Faltan datos requeridos
+ERROR - 2024-12-03 02:37:30 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+INFO - 2024-12-03 02:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:37:35 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+ERROR - 2024-12-03 02:37:35 --> Error en store: Faltan datos requeridos
+ERROR - 2024-12-03 02:37:35 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+INFO - 2024-12-03 02:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:42:03 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+ERROR - 2024-12-03 02:42:03 --> Error en store: Faltan datos requeridos
+ERROR - 2024-12-03 02:42:03 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+INFO - 2024-12-03 02:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:46:12 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+ERROR - 2024-12-03 02:46:12 --> Error en store: Faltan datos requeridos
+ERROR - 2024-12-03 02:46:12 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+INFO - 2024-12-03 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:50:35 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":5.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":6,"cantidad":1,"precio_unitario":1.75,"subtotal":1.75},{"id_producto":4,"cantidad":1,"precio_unitario":2,"subtotal":2}]}
+ERROR - 2024-12-03 02:50:35 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+ERROR - 2024-12-03 02:50:35 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+CRITICAL - 2024-12-03 02:50:35 --> ErrorException: Undefined variable $db
+[Method: POST, Route: ventas/store]
+in APPPATH\Controllers\Ventas.php on line 257.
+ 1 APPPATH\Controllers\Ventas.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\laragon\\www\\paf\\app\\Controllers\\Ventas.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ventas->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 02:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:50:51 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":5.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":6,"cantidad":1,"precio_unitario":1.75,"subtotal":1.75},{"id_producto":4,"cantidad":1,"precio_unitario":2,"subtotal":2}]}
+ERROR - 2024-12-03 02:50:51 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+ERROR - 2024-12-03 02:50:51 --> Stack trace: #0 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#1 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+CRITICAL - 2024-12-03 02:50:51 --> ErrorException: Undefined variable $db
+[Method: POST, Route: ventas/store]
+in APPPATH\Controllers\Ventas.php on line 257.
+ 1 APPPATH\Controllers\Ventas.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\laragon\\www\\paf\\app\\Controllers\\Ventas.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ventas->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 02:56:49 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 02:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 02:58:23 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"monto_recibido":20,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+DEBUG - 2024-12-03 02:58:23 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-20"}
+ERROR - 2024-12-03 02:58:23 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(202): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 02:58:23 --> Error en store: Error al insertar venta: {"CodeIgniter\\Database\\MySQLi\\Connection":"Unknown column 'updated_at' in 'field list'"}
+INFO - 2024-12-03 02:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 02:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:00:42 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":2.5,"monto_recibido":20,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":5,"cantidad":1,"precio_unitario":1,"subtotal":1}]}
+DEBUG - 2024-12-03 03:00:42 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":2.5,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-20"}
+ERROR - 2024-12-03 03:00:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\paf\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\paf\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\paf\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\paf\app\Controllers\Ventas.php(202): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-03 03:00:42 --> Error en store: Error al insertar venta: {"CodeIgniter\\Database\\MySQLi\\Connection":"Unknown column 'updated_at' in 'field list'"}
+INFO - 2024-12-03 03:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:09:13 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":10.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75},{"id_producto":10,"cantidad":2,"precio_unitario":3,"subtotal":6}]}
+ERROR - 2024-12-03 03:09:13 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 03:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:09:21 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":10.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75},{"id_producto":10,"cantidad":2,"precio_unitario":3,"subtotal":6}]}
+ERROR - 2024-12-03 03:09:21 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 03:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:10:49 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":10.25,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75},{"id_producto":10,"cantidad":2,"precio_unitario":3,"subtotal":6}]}
+ERROR - 2024-12-03 03:10:49 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 03:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 03:17:20 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 03:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:17:58 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":8.75,"monto_recibido":8.75,"detalles":[{"id_producto":11,"cantidad":1,"precio_unitario":1.25,"subtotal":1.25},{"id_producto":16,"cantidad":3,"precio_unitario":2.5,"subtotal":7.5}]}
+DEBUG - 2024-12-03 03:17:58 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":8.75,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-8.75"}
+DEBUG - 2024-12-03 03:17:58 --> Venta creada con ID: 1
+INFO - 2024-12-03 03:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:19:09 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:19:09 --> Datos Venta: {"id_venta":"1","id_cliente":"2","id_usuario":"1","metodo_pago_id":"1","fecha_venta":"2024-12-02 22:17:58","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"8.75","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-8.75","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 03:19:09 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:19:09 --> Datos Detalles: [{"id_detalle_venta":"1","id_venta":"1","id_producto":"11","cantidad":"1","precio_unitario":"1.25","subtotal":"1.25","producto_nombre":"Whole Milk","codigo_barras":"2222222222221","producto_descripcion":"Fresh whole milk","categoria_nombre":"Dairy"},{"id_detalle_venta":"2","id_venta":"1","id_producto":"16","cantidad":"3","precio_unitario":"2.50","subtotal":"7.50","producto_nombre":"Cream Cheese","codigo_barras":"2222222222226","producto_descripcion":"Soft cream cheese","categoria_nombre":"Dairy"}]
+INFO - 2024-12-03 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:19:22 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:19:22 --> Datos Venta: {"id_venta":"1","id_cliente":"2","id_usuario":"1","metodo_pago_id":"1","fecha_venta":"2024-12-02 22:17:58","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"8.75","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-8.75","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 03:19:22 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:19:22 --> Datos Detalles: [{"id_detalle_venta":"1","id_venta":"1","id_producto":"11","cantidad":"1","precio_unitario":"1.25","subtotal":"1.25","producto_nombre":"Whole Milk","codigo_barras":"2222222222221","producto_descripcion":"Fresh whole milk","categoria_nombre":"Dairy"},{"id_detalle_venta":"2","id_venta":"1","id_producto":"16","cantidad":"3","precio_unitario":"2.50","subtotal":"7.50","producto_nombre":"Cream Cheese","codigo_barras":"2222222222226","producto_descripcion":"Soft cream cheese","categoria_nombre":"Dairy"}]
+INFO - 2024-12-03 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:21:09 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:21:09 --> Datos Venta: {"id_venta":"1","id_cliente":"2","id_usuario":"1","metodo_pago_id":"1","fecha_venta":"2024-12-02 22:17:58","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"8.75","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-8.75","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 03:21:09 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:21:09 --> Datos Detalles: [{"id_detalle_venta":"1","id_venta":"1","id_producto":"11","cantidad":"1","precio_unitario":"1.25","subtotal":"1.25","producto_nombre":"Whole Milk","codigo_barras":"2222222222221","producto_descripcion":"Fresh whole milk","categoria_nombre":"Dairy"},{"id_detalle_venta":"2","id_venta":"1","id_producto":"16","cantidad":"3","precio_unitario":"2.50","subtotal":"7.50","producto_nombre":"Cream Cheese","codigo_barras":"2222222222226","producto_descripcion":"Soft cream cheese","categoria_nombre":"Dairy"}]
+INFO - 2024-12-03 03:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:21:39 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:21:39 --> Datos Venta: {"id_venta":"1","id_cliente":"2","id_usuario":"1","metodo_pago_id":"1","fecha_venta":"2024-12-02 22:17:58","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"8.75","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-8.75","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 03:21:39 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '1'
+            
+DEBUG - 2024-12-03 03:21:39 --> Datos Detalles: [{"id_detalle_venta":"1","id_venta":"1","id_producto":"11","cantidad":"1","precio_unitario":"1.25","subtotal":"1.25","producto_nombre":"Whole Milk","codigo_barras":"2222222222221","producto_descripcion":"Fresh whole milk","categoria_nombre":"Dairy"},{"id_detalle_venta":"2","id_venta":"1","id_producto":"16","cantidad":"3","precio_unitario":"2.50","subtotal":"7.50","producto_nombre":"Cream Cheese","codigo_barras":"2222222222226","producto_descripcion":"Soft cream cheese","categoria_nombre":"Dairy"}]
+INFO - 2024-12-03 03:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 03:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:59:19 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6.5,"detalles":[{"id_producto":4,"cantidad":1,"precio_unitario":2,"subtotal":2},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":5,"cantidad":3,"precio_unitario":1,"subtotal":3}]}
+ERROR - 2024-12-03 03:59:19 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 03:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 03:59:28 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6.5,"detalles":[{"id_producto":4,"cantidad":1,"precio_unitario":2,"subtotal":2},{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":5,"cantidad":3,"precio_unitario":1,"subtotal":3}]}
+ERROR - 2024-12-03 03:59:28 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:00:47 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 04:00:47 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:02:03 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":2.75,"detalles":[{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:02:03 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:02:09 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":2.75,"detalles":[{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:02:09 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:08:47 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":2.75,"detalles":[{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:08:47 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:09:23 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":6,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":2,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5}]}
+ERROR - 2024-12-03 04:09:23 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:10:23 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":7.25,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:10:23 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:10:54 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":7.25,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:10:54 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:15:41 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":7.25,"detalles":[{"id_producto":1,"cantidad":3,"precio_unitario":1.5,"subtotal":4.5},{"id_producto":9,"cantidad":1,"precio_unitario":2.75,"subtotal":2.75}]}
+ERROR - 2024-12-03 04:15:41 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:20:25 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 04:20:25 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:20:47 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 04:20:47 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:21:17 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 04:21:17 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:25:32 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"detalles":[{"id_producto":1,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+ERROR - 2024-12-03 04:25:32 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 04:30:02 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 04:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:52:59 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3.75,"detalles":[{"id_producto":4,"cantidad":1,"precio_unitario":2,"subtotal":2},{"id_producto":6,"cantidad":1,"precio_unitario":1.75,"subtotal":1.75}]}
+ERROR - 2024-12-03 04:52:59 --> Error en store: Campos requeridos faltantes: metodo_pago_id
+INFO - 2024-12-03 04:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:55:07 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":2,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"monto_recibido":3.5,"detalles":[{"id_producto":2,"cantidad":2,"precio_unitario":1.5,"subtotal":3}]}
+DEBUG - 2024-12-03 04:55:07 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":2,"tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":3,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-3.5"}
+DEBUG - 2024-12-03 04:55:07 --> Venta creada con ID: 2
+INFO - 2024-12-03 04:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:55:33 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":6,"tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":1.5,"monto_recibido":1.5,"detalles":[{"id_producto":2,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5}]}
+DEBUG - 2024-12-03 04:55:33 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":6,"tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":1.5,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-1.5"}
+DEBUG - 2024-12-03 04:55:33 --> Venta creada con ID: 3
+INFO - 2024-12-03 04:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:56:01 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:56:01 --> Datos Venta: {"id_venta":"2","id_cliente":"2","id_usuario":"1","metodo_pago_id":"2","fecha_venta":"2024-12-02 23:55:07","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-3.5","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:56:01 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:56:01 --> Datos Detalles: [{"id_detalle_venta":"3","id_venta":"2","id_producto":"2","cantidad":"2","precio_unitario":"1.50","subtotal":"3.00","producto_nombre":"Pepsi","codigo_barras":"1111111111112","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 04:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:56:20 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '3'
+            
+DEBUG - 2024-12-03 04:56:20 --> Datos Venta: {"id_venta":"3","id_cliente":"2","id_usuario":"1","metodo_pago_id":"6","fecha_venta":"2024-12-02 23:55:33","tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":"1.50","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-1.5","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:56:20 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '3'
+            
+DEBUG - 2024-12-03 04:56:20 --> Datos Detalles: [{"id_detalle_venta":"4","id_venta":"3","id_producto":"2","cantidad":"1","precio_unitario":"1.50","subtotal":"1.50","producto_nombre":"Pepsi","codigo_barras":"1111111111112","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 04:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:56:23 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:56:23 --> Datos Venta: {"id_venta":"2","id_cliente":"2","id_usuario":"1","metodo_pago_id":"2","fecha_venta":"2024-12-02 23:55:07","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-3.5","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:56:23 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:56:23 --> Datos Detalles: [{"id_detalle_venta":"3","id_venta":"2","id_producto":"2","cantidad":"2","precio_unitario":"1.50","subtotal":"3.00","producto_nombre":"Pepsi","codigo_barras":"1111111111112","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 04:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 04:57:50 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 04:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:58:12 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":3,"tipo_comprobante":"factura","numero_comprobante":"F-00000001","total":4,"monto_recibido":22,"detalles":[{"id_producto":1,"cantidad":1,"precio_unitario":1.5,"subtotal":1.5},{"id_producto":12,"cantidad":2,"precio_unitario":1.25,"subtotal":2.5}]}
+DEBUG - 2024-12-03 04:58:12 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":3,"tipo_comprobante":"factura","numero_comprobante":"F-00000001","total":4,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-22"}
+DEBUG - 2024-12-03 04:58:12 --> Venta creada con ID: 4
+INFO - 2024-12-03 04:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 04:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:58:29 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:58:29 --> Datos Venta: {"id_venta":"2","id_cliente":"2","id_usuario":"1","metodo_pago_id":"2","fecha_venta":"2024-12-02 23:55:07","tipo_comprobante":"boleta","numero_comprobante":"B-00000001","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-3.5","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:58:29 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '2'
+            
+DEBUG - 2024-12-03 04:58:29 --> Datos Detalles: [{"id_detalle_venta":"3","id_venta":"2","id_producto":"2","cantidad":"2","precio_unitario":"1.50","subtotal":"3.00","producto_nombre":"Pepsi","codigo_barras":"1111111111112","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 04:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:58:33 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '3'
+            
+DEBUG - 2024-12-03 04:58:33 --> Datos Venta: {"id_venta":"3","id_cliente":"2","id_usuario":"1","metodo_pago_id":"6","fecha_venta":"2024-12-02 23:55:33","tipo_comprobante":"boleta","numero_comprobante":"B-00000002","total":"1.50","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-1.5","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:58:33 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '3'
+            
+DEBUG - 2024-12-03 04:58:33 --> Datos Detalles: [{"id_detalle_venta":"4","id_venta":"3","id_producto":"2","cantidad":"1","precio_unitario":"1.50","subtotal":"1.50","producto_nombre":"Pepsi","codigo_barras":"1111111111112","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 04:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 04:58:35 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '4'
+            
+DEBUG - 2024-12-03 04:58:35 --> Datos Venta: {"id_venta":"4","id_cliente":"2","id_usuario":"1","metodo_pago_id":"3","fecha_venta":"2024-12-02 23:58:12","tipo_comprobante":"factura","numero_comprobante":"F-00000001","total":"4.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-22","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 04:58:35 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '4'
+            
+DEBUG - 2024-12-03 04:58:35 --> Datos Detalles: [{"id_detalle_venta":"5","id_venta":"4","id_producto":"1","cantidad":"1","precio_unitario":"1.50","subtotal":"1.50","producto_nombre":"Coca Cola","codigo_barras":"1111111111111","producto_descripcion":"Carbonated soft drink","categoria_nombre":"Beverages"},{"id_detalle_venta":"6","id_venta":"4","id_producto":"12","cantidad":"2","precio_unitario":"1.25","subtotal":"2.50","producto_nombre":"Skim Milk","codigo_barras":"2222222222222","producto_descripcion":"Low-fat milk","categoria_nombre":"Dairy"}]
+INFO - 2024-12-03 05:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 05:03:35 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 05:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 05:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 05:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 05:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 05:03:48 --> Datos recibidos en store: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":3,"tipo_comprobante":"boleta","numero_comprobante":"B-00000003","total":3,"monto_recibido":11,"detalles":[{"id_producto":5,"cantidad":3,"precio_unitario":1,"subtotal":3}]}
+DEBUG - 2024-12-03 05:03:48 --> Datos preparados para inserción: {"id_cliente":2,"id_usuario":1,"metodo_pago_id":3,"tipo_comprobante":"boleta","numero_comprobante":"B-00000003","total":3,"estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-11"}
+DEBUG - 2024-12-03 05:03:48 --> Venta creada con ID: 5
+INFO - 2024-12-03 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 05:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 05:03:59 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 05:03:59 --> Datos Venta: {"id_venta":"5","id_cliente":"2","id_usuario":"1","metodo_pago_id":"3","fecha_venta":"2024-12-03 00:03:48","tipo_comprobante":"boleta","numero_comprobante":"B-00000003","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-11","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 05:03:59 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 05:03:59 --> Datos Detalles: [{"id_detalle_venta":"7","id_venta":"5","id_producto":"5","cantidad":"3","precio_unitario":"1.00","subtotal":"3.00","producto_nombre":"Water","codigo_barras":"1111111111115","producto_descripcion":"Bottled water","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 14:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 14:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 20:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 20:57:42 --> Layout - Estado de sesión: {"session_id":"887go9oro7tkgg0k8v7gi1bc4rmqrrp9","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 20:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 20:59:05 --> Layout - Estado de sesión: {"session_id":"887go9oro7tkgg0k8v7gi1bc4rmqrrp9","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 20:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 20:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:15:54 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 21:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:07 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:21 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:27 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:32 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:38 --> Estado inicial de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+DEBUG - 2024-12-03 21:19:38 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:41 --> Estado inicial de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+DEBUG - 2024-12-03 21:19:41 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:19:53 --> Layout - Estado de sesión: {"session_id":"oqahte8s9br23onvq24metkebbmbtduk","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-03 21:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:20:18 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:20:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:20:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:20:18 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:21:46 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:21:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:21:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:21:46 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:22:10 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:22:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:22:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:22:10 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:28:14 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:14 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Eveniet aliquid vol\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Eveniet aliquid vol', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Eveniet aliquid vol', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:28:27 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Ipsum incidunt ...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Ipsum incidunt ...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:28:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Ipsum incidunt dic', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Ipsum incidunt dic', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Ipsum incidunt dic\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Ipsum incidunt dic\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Ipsum incidunt dic', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Ipsum incidunt dic', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:27 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Ipsum incidunt dic\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Ipsum incidunt dic\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Ipsum incidunt dic\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Ipsum incidunt dic', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Ipsum incidunt dic', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:28:50 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Excepteur volup...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Excepteur volup...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:28:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Excepteur voluptatum', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Excepteur voluptatum', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Excepteur voluptatum\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Excepteur voluptatum\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Excepteur voluptatum', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Excepteur voluptatum', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:28:50 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Excepteur voluptatum\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Excepteur voluptatum\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Excepteur voluptatum\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Excepteur voluptatum', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Excepteur voluptatum', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(91): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:30:32 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Dolorem labore ...', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Dolorem labore ...', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(92): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:30:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Dolorem labore magna', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Dolorem labore magna', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:30:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Dolorem labore magna\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Dolorem labore magna\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Dolorem labore magna', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Dolorem labore magna', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:30:32 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Dolorem labore magna\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Dolorem labore magna\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'Dolorem labore magna\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('Dolorem labore magna', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'Dolorem labore magna', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:39:17 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 21:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:39:37 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaaa', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaaa', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(92): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:39:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaaa', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaaa', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:39:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaaa\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaaa\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaaa', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaaa', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:39:37 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaaa\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaaa\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaaa\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaaa', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaaa', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:44:11 --> mysqli_sql_exception: Table 'minimarket_v3.categorias' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(172): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('2', 'id_categoria', Array, NULL, 'id_categoria')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('id_categoria', 'id_categoria', '2', Array, Array, 'id_categoria')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(92): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->store()
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:44:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.categorias' doesn't exist
+[Method: POST, Route: admin/productos/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = :id_categoria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(172): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('2', 'id_categoria', [...], null, 'id_categoria')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('id_categoria', 'id_categoria', '2', [...], [...], 'id_categoria')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:44:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.categorias' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = \'2\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = \'2\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = :id_categoria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(172): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('2', 'id_categoria', [...], null, 'id_categoria')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('id_categoria', 'id_categoria', '2', [...], [...], 'id_categoria')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:44:11 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.categorias' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = \'2\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = \'2\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = \'2\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categorias`
+WHERE `id_categoria` = :id_categoria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(172): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('2', 'id_categoria', [...], null, 'id_categoria')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('id_categoria', 'id_categoria', '2', [...], [...], 'id_categoria')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:48:46 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(186): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:48:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/update/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:48:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:48:46 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 21:48:55 --> mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist in C:\laragon\www\paf\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\paf\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\paf\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\paf\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\paf\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\paf\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\paf\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', Array, NULL, 'nombre')
+#6 C:\laragon\www\paf\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', Array, Array, 'nombre')
+#7 C:\laragon\www\paf\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\paf\app\Controllers\Productos.php(186): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\paf\system\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+#10 C:\laragon\www\paf\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\laragon\www\paf\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\paf\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\paf\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\paf\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-03 21:48:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+[Method: POST, Route: admin/productos/update/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:48:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-03 21:48:55 --> [Caused by] mysqli_sql_exception: Table 'minimarket_v3.productos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `productos`
+WHERE `nombre` = \'aaaaaaa\'
+AND `id_producto` != \'11\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `productos`
+WHERE `nombre` = :nombre:
+AND `id_producto` != :id_producto:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('aaaaaaa', 'nombre', [...], null, 'nombre')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'aaaaaaa', [...], [...], 'nombre')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Productos.php(186): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->update('11')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-03 21:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:57:37 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 21:57:37 --> Datos Venta: {"id_venta":"5","id_cliente":"2","id_usuario":"1","metodo_pago_id":"3","fecha_venta":"2024-12-03 00:03:48","tipo_comprobante":"boleta","numero_comprobante":"B-00000003","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-11","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 21:57:37 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 21:57:37 --> Datos Detalles: [{"id_detalle_venta":"7","id_venta":"5","id_producto":"5","cantidad":"3","precio_unitario":"1.00","subtotal":"3.00","producto_nombre":"Water","codigo_barras":"1111111111115","producto_descripcion":"Bottled water","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 21:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-03 21:57:39 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 21:57:39 --> Datos Venta: {"id_venta":"5","id_cliente":"2","id_usuario":"1","metodo_pago_id":"3","fecha_venta":"2024-12-03 00:03:48","tipo_comprobante":"boleta","numero_comprobante":"B-00000003","total":"3.00","estado":"completada","estado_pago":"pagado","referencia_pago":"EFECTIVO-11","direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"johan","cliente_apellido":"ventura","cliente_dni":"77349472","cliente_telefono":"998113374","cliente_email":"admin@gmail.com","cliente_direccion":null,"usuario_nombre":"johan","usuario_apellido":"ventura","usuario_email":"becerrajohan6@gmail.com"}
+DEBUG - 2024-12-03 21:57:39 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '5'
+            
+DEBUG - 2024-12-03 21:57:39 --> Datos Detalles: [{"id_detalle_venta":"7","id_venta":"5","id_producto":"5","cantidad":"3","precio_unitario":"1.00","subtotal":"3.00","producto_nombre":"Water","codigo_barras":"1111111111115","producto_descripcion":"Bottled water","categoria_nombre":"Beverages"}]
+INFO - 2024-12-03 21:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 21:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:16:09 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:16:31 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:19:35 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:22:11 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:22:46 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:25:14 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-03 22:25:32 --> [Home::index] Error: Invalid file: "admin/home.php"
+INFO - 2024-12-03 22:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-03 22:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
