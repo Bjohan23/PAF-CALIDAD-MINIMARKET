@@ -1,3 +1,4 @@
-Account (Tests\Controllers\Account)
- [x] It redirects to login when user is not logged in
+Login (Tests\Controllers\Login)
+ [x] It fails to authenticate invalid user
+ [x] It creates a new user
 
