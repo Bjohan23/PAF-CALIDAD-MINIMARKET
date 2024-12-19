@@ -70,3 +70,5 @@ INFO - 2024-12-19 15:03:15 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-19 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-19 15:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2024-12-19 15:03:16 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 17:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 17:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,1 +1,4 @@
 vendor/
+# Ignorar archivos debugbar en writable
+writable/debugbar/*.json
+writable/logs/*.log
