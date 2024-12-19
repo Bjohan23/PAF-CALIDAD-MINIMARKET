@@ -1,0 +1,72 @@
+INFO - 2024-12-19 14:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-19 14:54:39 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'minimarket_test' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'minimarket_test', 3306, '', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(8, 0)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Tienda.php(34): CodeIgniter\BaseModel->findAll(8)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Tienda->index()
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'minimarket_test' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(8, 0)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Tienda.php(34): CodeIgniter\BaseModel->findAll(8)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Tienda->index()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-19 14:54:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'minimarket_test'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `destacado` = :destacado:
+AND `is_active` = :is_active:
+ LIMIT 8', [...], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(8, 0)
+ 5 APPPATH\Controllers\Tienda.php(34): CodeIgniter\BaseModel->findAll(8)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tienda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-19 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:00:40 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:00:41 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:01:02 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:01:58 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 15:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:02:14 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
+INFO - 2024-12-19 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-19 15:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-19 15:03:16 --> Layout - Estado de sesión: {"session_id":"","cliente_id":null,"isClienteLoggedIn":null}
