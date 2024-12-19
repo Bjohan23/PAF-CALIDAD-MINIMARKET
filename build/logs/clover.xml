@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1734108333">
-  <project timestamp="1734108333">
+<coverage generated="1734636422">
+  <project timestamp="1734636422">
     <file name="C:\laragon\www\paf\app\Common.php">
       <metrics loc="16" ncloc="3" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
@@ -51,18 +51,18 @@
         <class name="Config\Database" namespace="Config">
           <metrics complexity="9" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
         </class>
-        <line num="177" type="method" name="__construct" visibility="public" complexity="9" crap="9" count="1"/>
-        <line num="179" type="stmt" count="1"/>
-        <line num="181" type="stmt" count="1"/>
-        <line num="182" type="stmt" count="1"/>
-        <line num="185" type="stmt" count="1"/>
-        <line num="186" type="stmt" count="1"/>
-        <line num="190" type="stmt" count="1"/>
-        <line num="191" type="stmt" count="1"/>
-        <line num="192" type="stmt" count="1"/>
-        <line num="193" type="stmt" count="1"/>
-        <line num="194" type="stmt" count="1"/>
-        <line num="195" type="stmt" count="1"/>
+        <line num="177" type="method" name="__construct" visibility="public" complexity="9" crap="9" count="6"/>
+        <line num="179" type="stmt" count="6"/>
+        <line num="181" type="stmt" count="6"/>
+        <line num="182" type="stmt" count="6"/>
+        <line num="185" type="stmt" count="6"/>
+        <line num="186" type="stmt" count="6"/>
+        <line num="190" type="stmt" count="6"/>
+        <line num="191" type="stmt" count="6"/>
+        <line num="192" type="stmt" count="6"/>
+        <line num="193" type="stmt" count="6"/>
+        <line num="194" type="stmt" count="6"/>
+        <line num="195" type="stmt" count="6"/>
         <metrics loc="198" ncloc="77" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
       </file>
       <file name="C:\laragon\www\paf\app\Config\DocTypes.php">
@@ -299,21 +299,21 @@
       <metrics loc="95" ncloc="22" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="23" coveredelements="0"/>
     </file>
     <file name="C:\laragon\www\paf\app\Config\Events.php">
-      <line num="26" type="stmt" count="1"/>
-      <line num="27" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="6"/>
+      <line num="27" type="stmt" count="6"/>
       <line num="28" type="stmt" count="0"/>
       <line num="29" type="stmt" count="0"/>
       <line num="32" type="stmt" count="0"/>
       <line num="33" type="stmt" count="0"/>
       <line num="36" type="stmt" count="0"/>
-      <line num="45" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="6"/>
       <line num="46" type="stmt" count="0"/>
       <line num="47" type="stmt" count="0"/>
       <line num="49" type="stmt" count="0"/>
       <line num="50" type="stmt" count="0"/>
       <line num="51" type="stmt" count="0"/>
       <line num="52" type="stmt" count="0"/>
-      <line num="55" type="stmt" count="1"/>
+      <line num="55" type="stmt" count="6"/>
       <metrics loc="56" ncloc="33" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="4" elements="15" coveredelements="4"/>
     </file>
     <package name="App\Controllers">
@@ -332,49 +332,49 @@
         <class name="App\Controllers\BaseController" namespace="App\Controllers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="49" type="method" name="initController" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="52" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
+        <line num="49" type="method" name="initController" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="52" type="stmt" count="6"/>
+        <line num="57" type="stmt" count="6"/>
         <metrics loc="60" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="C:\laragon\www\paf\app\Controllers\Categorias.php">
         <class name="App\Controllers\Categorias" namespace="App\Controllers">
-          <metrics complexity="6" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="33" coveredelements="0"/>
+          <metrics complexity="6" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="33" coveredelements="33"/>
         </class>
-        <line num="8" type="method" name="index" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="10" type="stmt" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="12" type="stmt" count="0"/>
-        <line num="15" type="stmt" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="21" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="33" type="method" name="edit" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="40" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="43" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="45" type="stmt" count="0"/>
-        <line num="46" type="stmt" count="0"/>
-        <line num="47" type="stmt" count="0"/>
-        <line num="48" type="stmt" count="0"/>
-        <line num="49" type="stmt" count="0"/>
-        <line num="52" type="method" name="delete" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="54" type="stmt" count="0"/>
-        <line num="55" type="stmt" count="0"/>
-        <line num="56" type="stmt" count="0"/>
-        <metrics loc="58" ncloc="58" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="33" coveredelements="0"/>
+        <line num="8" type="method" name="index" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="10" type="stmt" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="21" type="method" name="store" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="33" type="method" name="edit" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="40" type="method" name="update" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="method" name="delete" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <metrics loc="58" ncloc="58" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="33" coveredelements="33"/>
       </file>
       <file name="C:\laragon\www\paf\app\Controllers\Clientes.php">
         <class name="App\Controllers\Clientes" namespace="App\Controllers">
@@ -656,25 +656,25 @@
       </file>
       <file name="C:\laragon\www\paf\app\Controllers\MetodoPago.php">
         <class name="App\Controllers\MetodoPago" namespace="App\Controllers">
-          <metrics complexity="4" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="9" elements="16" coveredelements="11"/>
+          <metrics complexity="4" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="16" coveredelements="0"/>
         </class>
-        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="13" type="stmt" count="1"/>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
         <line num="16" type="method" name="getMetodoPago" visibility="public" complexity="2" crap="6" count="0"/>
         <line num="18" type="stmt" count="0"/>
         <line num="20" type="stmt" count="0"/>
         <line num="21" type="stmt" count="0"/>
         <line num="24" type="stmt" count="0"/>
-        <line num="26" type="method" name="create" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="28" type="stmt" count="1"/>
-        <line num="29" type="stmt" count="1"/>
-        <line num="30" type="stmt" count="1"/>
-        <line num="31" type="stmt" count="1"/>
-        <line num="32" type="stmt" count="1"/>
-        <line num="33" type="stmt" count="1"/>
-        <line num="35" type="stmt" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <metrics loc="40" ncloc="40" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="9" elements="16" coveredelements="11"/>
+        <line num="26" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="40" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="16" coveredelements="0"/>
       </file>
       <file name="C:\laragon\www\paf\app\Controllers\Productos.php">
         <class name="App\Controllers\Productos" namespace="App\Controllers">
@@ -1726,9 +1726,25 @@
       </file>
       <file name="C:\laragon\www\paf\app\Models\ClienteModel.php">
         <class name="App\Models\ClienteModel" namespace="App\Models">
-          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+          <metrics complexity="6" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="16" coveredelements="0"/>
         </class>
-        <metrics loc="29" ncloc="28" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        <line num="74" type="method" name="hashPassword" visibility="protected" complexity="2" crap="6" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="83" type="method" name="emailExists" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="94" type="method" name="dniExists" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <metrics loc="103" ncloc="100" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="16" coveredelements="0"/>
       </file>
       <file name="C:\laragon\www\paf\app\Models\CompraModel.php">
         <class name="App\Models\CompraModel" namespace="App\Models">
@@ -1803,6 +1819,6 @@
         <metrics loc="36" ncloc="34" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="66" loc="6553" ncloc="4158" classes="19" methods="69" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="1350" coveredstatements="26" elements="1419" coveredelements="30"/>
+    <metrics files="66" loc="6627" ncloc="4230" classes="20" methods="72" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="1363" coveredstatements="45" elements="1435" coveredelements="52"/>
   </project>
 </coverage>

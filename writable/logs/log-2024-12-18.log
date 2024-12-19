@@ -1,0 +1,30 @@
+CRITICAL - 2024-12-18 06:46:58 --> TypeError: CodeIgniter\Database\BaseBuilder::setBind(): Argument #1 ($key) must be of type string, int given, called in /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseBuilder.php on line 1570
+[Method: POST, Route: admin/clientes/store]
+in SYSTEMPATH/Database/BaseBuilder.php on line 3515.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1570): CodeIgniter\Database\BaseBuilder->setBind()
+ 2 SYSTEMPATH/Model.php(365): CodeIgniter\Database\BaseBuilder->set()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Clientes.php(73): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Clientes->store()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-12-18 06:47:15 --> TypeError: CodeIgniter\Database\BaseBuilder::setBind(): Argument #1 ($key) must be of type string, int given, called in /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseBuilder.php on line 1570
+[Method: POST, Route: admin/clientes/store]
+in SYSTEMPATH/Database/BaseBuilder.php on line 3515.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1570): CodeIgniter\Database\BaseBuilder->setBind()
+ 2 SYSTEMPATH/Model.php(365): CodeIgniter\Database\BaseBuilder->set()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Clientes.php(73): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Clientes->store()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

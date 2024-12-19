@@ -49,8 +49,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CodeIgniter\\": "system/",
-      "App\\": "app/"
+      "CodeIgniter\\": "system/"
     },
     "exclude-from-classmap": [
       "**/Database/Migrations/**"
@@ -62,7 +61,7 @@
     "sort-packages": true
   },
   "scripts": {
-    "test": "vendor/bin/phpunit",
+    "test": "phpunit",
     "test:categorias": "vendor/bin/phpunit tests/Controllers/CategoriasTest.php",
     "test:productos": "vendor/bin/phpunit tests/Controllers/ProductosTest.php",
     "test:clientes": "php vendor/bin/phpunit tests/Controllers/ClientesTest.php --dont-report-useless-tests",

@@ -1,0 +1,36 @@
+ERROR - 2024-12-05 23:34:54 --> mysqli_sql_exception: Duplicate entry '71957448' for key 'uk_usuario_dni' in /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/app/Controllers/Login.php(56): CodeIgniter\BaseModel->save()
+#9 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(933): App\Controllers\Login->create()
+#10 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+ERROR - 2024-12-05 23:37:27 --> mysqli_sql_exception: Duplicate entry '71957448' for key 'uk_usuario_dni' in /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/app/Controllers/Login.php(56): CodeIgniter\BaseModel->save()
+#9 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(933): App\Controllers\Login->create()
+#10 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/u378336868/domains/darkgreen-jellyfish-572305.hostingersite.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
