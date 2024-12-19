@@ -1,2 +1,51 @@
-RewriteEngine On
-RewriteRule ^$ public/ [L]
+# ----------------------------------------------------------------------
+# Configuración de seguridad
+# ----------------------------------------------------------------------
+
+# Deshabilitar la navegación de directorios
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite engine
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+
+    # Cambiar RewriteBase si tu proyecto no está en la raíz del dominio
+    # Por ejemplo, si está en un subdirectorio:
+    # RewriteBase /subcarpeta/
+    RewriteBase /
+
+    # Redirigir slashes al final
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Redirigir "www" a no-www (opcional)
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+    # Redirigir solicitudes no existentes a index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+    # Asegurar que la cabecera de autorización pase correctamente
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # Si no se tiene mod_rewrite, redirigir errores 404 a index.php
+    ErrorDocument 404 index.php
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Seguridad adicional
+# ----------------------------------------------------------------------
+
+# Deshabilitar la firma del servidor
+ServerSignature Off
