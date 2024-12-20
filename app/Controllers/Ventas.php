@@ -19,7 +19,7 @@ class Ventas extends BaseController
     {
         $session = session();
         if (!$session->get('isLoggedIn')) {
-            return redirect()->to(base_url('login'));
+            return redirect()->to(base_url('admin/login'));
         }
 
         $db = \Config\Database::connect();

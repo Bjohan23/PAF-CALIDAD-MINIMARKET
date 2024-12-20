@@ -1,3 +1,4 @@
 Metodo Pago (Tests\Controllers\MetodoPago)
- [x] It creates a new payment method
+ [x] Create new payment method
+ [x] Cannot delete payment method with related data
 

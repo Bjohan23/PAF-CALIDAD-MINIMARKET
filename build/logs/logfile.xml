@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Tests\Controllers\MetodoPagoTest" file="C:\laragon\www\paf\tests\Controllers\MetodoPagoTest.php" tests="1" assertions="6" errors="0" failures="0" skipped="0" time="0.177745">
-    <testcase name="it_creates_a_new_payment_method" file="C:\laragon\www\paf\tests\Controllers\MetodoPagoTest.php" line="48" class="Tests\Controllers\MetodoPagoTest" classname="Tests.Controllers.MetodoPagoTest" assertions="6" time="0.177745"/>
+  <testsuite name="Tests\Controllers\MetodoPagoTest" file="C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php" tests="2" assertions="8" errors="0" failures="0" skipped="0" time="0.445537">
+    <testcase name="testCreateNewPaymentMethod" file="C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php" line="101" class="Tests\Controllers\MetodoPagoTest" classname="Tests.Controllers.MetodoPagoTest" assertions="6" time="0.295360"/>
+    <testcase name="testCannotDeletePaymentMethodWithRelatedData" file="C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php" line="138" class="Tests\Controllers\MetodoPagoTest" classname="Tests.Controllers.MetodoPagoTest" assertions="2" time="0.150177"/>
   </testsuite>
 </testsuites>

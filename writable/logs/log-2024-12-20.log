@@ -1,0 +1,1028 @@
+ERROR - 2024-12-20 13:54:41 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'minimarket_test', 3306, '', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(59): Tests\Controllers\HomeTest->loadDependencies()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\CIUnitTestCase.php(251): Tests\Controllers\HomeTest->setUpDatabase()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(19): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(59): Tests\Controllers\HomeTest->loadDependencies()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\CIUnitTestCase.php(251): Tests\Controllers\HomeTest->setUpDatabase()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(19): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#15 {main}
+ERROR - 2024-12-20 13:54:46 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'minimarket_test', 3306, '', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(120): CodeIgniter\BaseModel->delete()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(109): Tests\Controllers\HomeTest->cleanup()
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->tearDown()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#18 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(120): CodeIgniter\BaseModel->delete()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(109): Tests\Controllers\HomeTest->cleanup()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->tearDown()
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#17 {main}
+ERROR - 2024-12-20 13:54:52 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'minimarket_test', 3306, '', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(59): Tests\Controllers\HomeTest->loadDependencies()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\CIUnitTestCase.php(251): Tests\Controllers\HomeTest->setUpDatabase()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(19): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\DatabaseTestTrait.php(59): Tests\Controllers\HomeTest->loadDependencies()
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\CIUnitTestCase.php(251): Tests\Controllers\HomeTest->setUpDatabase()
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(19): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#15 {main}
+ERROR - 2024-12-20 13:57:17 --> mysqli_sql_exception: Duplicate entry '12345678' for key 'usuario.uk_usuario_dni' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(31): Tests\Controllers\HomeTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 13:57:18 --> mysqli_sql_exception: Duplicate entry '12345678' for key 'usuario.uk_usuario_dni' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(31): Tests\Controllers\HomeTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 13:57:18 --> mysqli_sql_exception: Duplicate entry '12345678' for key 'usuario.uk_usuario_dni' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(31): Tests\Controllers\HomeTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 13:57:18 --> mysqli_sql_exception: Duplicate entry '12345678' for key 'usuario.uk_usuario_dni' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\HomeTest.php(31): Tests\Controllers\HomeTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\HomeTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\HomeTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:05:54 --> Error en create venta: Trying to access array offset on value of type null
+DEBUG - 2024-12-20 14:07:51 --> Datos recibidos en store: null
+ERROR - 2024-12-20 14:07:51 --> Error en store: Campos requeridos faltantes: id_cliente, id_usuario, metodo_pago_id, tipo_comprobante, numero_comprobante, total, detalles
+DEBUG - 2024-12-20 14:11:10 --> Datos recibidos en store: null
+ERROR - 2024-12-20 14:11:10 --> Error en store: Campos requeridos faltantes: id_cliente, id_usuario, metodo_pago_id, tipo_comprobante, numero_comprobante, total, detalles
+DEBUG - 2024-12-20 14:11:11 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '25'
+            
+DEBUG - 2024-12-20 14:11:11 --> Datos Venta: {"id_venta":"25","id_cliente":"110","id_usuario":"61","metodo_pago_id":"53","fecha_venta":"2024-12-20 14:11:11","tipo_comprobante":"boleta","numero_comprobante":"B-1734703870","total":"100.00","estado":"completada","estado_pago":"pagado","referencia_pago":null,"direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"Cliente Test","cliente_apellido":"Apellido Test","cliente_dni":"38109519","cliente_telefono":null,"cliente_email":"cliente_1734703870@test.com","cliente_direccion":null,"usuario_nombre":"Usuario Test","usuario_apellido":"Apellido Test","usuario_email":"usuario_1734703870@test.com"}
+DEBUG - 2024-12-20 14:11:11 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '25'
+            
+DEBUG - 2024-12-20 14:11:11 --> Datos Detalles: [{"id_detalle_venta":"21","id_venta":"25","id_producto":"35","cantidad":"2","precio_unitario":"50.00","subtotal":"100.00","producto_nombre":"Producto Test 1734703870","codigo_barras":null,"producto_descripcion":"Descripci\u00f3n de prueba","categoria_nombre":"Categoria Test 1734703870"}]
+ERROR - 2024-12-20 14:14:10 --> Error en create venta: Trying to access array offset on value of type null
+DEBUG - 2024-12-20 14:14:10 --> Datos recibidos en store: {"id_cliente":116,"id_usuario":67,"metodo_pago_id":59,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704050","total":150,"detalles":[{"id_producto":41,"cantidad":3,"precio_unitario":50,"subtotal":150}]}
+DEBUG - 2024-12-20 14:14:10 --> Datos preparados para inserción: {"id_cliente":116,"id_usuario":67,"metodo_pago_id":59,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704050","total":150,"estado":"completada","estado_pago":"pagado"}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Duplicate entry 'B-1734704050' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(207): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(244): Tests\Controllers\VentasTest->call('POST', 'ventas/store', Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(171): Tests\Controllers\VentasTest->post('ventas/store', Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testStoreCreatesNewVenta()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#22 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#23 {main}
+ERROR - 2024-12-20 14:14:11 --> Error en store: Error al insertar venta: {"CodeIgniter\\Database\\MySQLi\\Connection":"Duplicate entry 'B-1734704050' for key 'venta.uk_venta_comprobante'"}
+DEBUG - 2024-12-20 14:14:11 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '33'
+            
+DEBUG - 2024-12-20 14:14:11 --> Datos Venta: {"id_venta":"33","id_cliente":"117","id_usuario":"68","metodo_pago_id":"60","fecha_venta":"2024-12-20 14:14:11","tipo_comprobante":"boleta","numero_comprobante":"B-1734704051","total":"100.00","estado":"completada","estado_pago":"pagado","referencia_pago":null,"direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"Cliente Test","cliente_apellido":"Apellido Test","cliente_dni":"72275088","cliente_telefono":null,"cliente_email":"cliente_1734704051@test.com","cliente_direccion":null,"usuario_nombre":"Usuario Test","usuario_apellido":"Apellido Test","usuario_email":"usuario_1734704051@test.com"}
+DEBUG - 2024-12-20 14:14:11 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '33'
+            
+DEBUG - 2024-12-20 14:14:11 --> Datos Detalles: [{"id_detalle_venta":"28","id_venta":"33","id_producto":"42","cantidad":"2","precio_unitario":"50.00","subtotal":"100.00","producto_nombre":"Producto Test 1734704051","codigo_barras":null,"producto_descripcion":"Descripci\u00f3n de prueba","categoria_nombre":"Categoria Test 1734704051"}]
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_cliente` FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id_cliente`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Duplicate entry 'cliente_1734704051@test.com' for key 'cliente.uk_cliente_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Duplicate entry 'usuario_1734704051@test.com' for key 'usuario.uk_usuario_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Duplicate entry 'B-1734704051' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:14:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket_test`.`detalle_venta`, CONSTRAINT `fk_detalle_venta_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(107): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:15:55 --> Error en create venta: Trying to access array offset on value of type null
+DEBUG - 2024-12-20 14:15:55 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '39'
+            
+DEBUG - 2024-12-20 14:15:55 --> Datos Venta: {"id_venta":"39","id_cliente":"123","id_usuario":"74","metodo_pago_id":"66","fecha_venta":"2024-12-20 14:15:55","tipo_comprobante":"boleta","numero_comprobante":"B-1734704155","total":"100.00","estado":"completada","estado_pago":"pagado","referencia_pago":null,"direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"Cliente Test","cliente_apellido":"Apellido Test","cliente_dni":"45656554","cliente_telefono":null,"cliente_email":"cliente_1734704155@test.com","cliente_direccion":null,"usuario_nombre":"Usuario Test","usuario_apellido":"Apellido Test","usuario_email":"usuario_1734704155@test.com"}
+DEBUG - 2024-12-20 14:15:55 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '39'
+            
+DEBUG - 2024-12-20 14:15:55 --> Datos Detalles: [{"id_detalle_venta":"34","id_venta":"39","id_producto":"48","cantidad":"2","precio_unitario":"50.00","subtotal":"100.00","producto_nombre":"Producto Test 1734704155","codigo_barras":null,"producto_descripcion":"Descripci\u00f3n de prueba","categoria_nombre":"Categoria Test 1734704155"}]
+ERROR - 2024-12-20 14:15:55 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:15:55 --> mysqli_sql_exception: Duplicate entry 'Categoria Test 1734704155' for key 'categoria.uk_categoria_nombre' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> Error en create venta: Trying to access array offset on value of type null
+DEBUG - 2024-12-20 14:19:39 --> Datos recibidos en store: {"id_cliente":4,"id_usuario":4,"metodo_pago_id":4,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704379","total":150,"detalles":[{"id_producto":4,"cantidad":3,"precio_unitario":50,"subtotal":150}]}
+DEBUG - 2024-12-20 14:19:39 --> Datos preparados para inserción: {"id_cliente":4,"id_usuario":4,"metodo_pago_id":4,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704379","total":150,"estado":"completada","estado_pago":"pagado"}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Duplicate entry 'B-1734704379' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(207): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(244): Tests\Controllers\VentasTest->call('POST', 'ventas/store', Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(171): Tests\Controllers\VentasTest->post('ventas/store', Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testStoreCreatesNewVenta()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#22 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#23 {main}
+ERROR - 2024-12-20 14:19:39 --> Error en store: Error al insertar venta: {"CodeIgniter\\Database\\MySQLi\\Connection":"Duplicate entry 'B-1734704379' for key 'venta.uk_venta_comprobante'"}
+DEBUG - 2024-12-20 14:19:39 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '6'
+            
+DEBUG - 2024-12-20 14:19:39 --> Datos Venta: {"id_venta":"6","id_cliente":"5","id_usuario":"5","metodo_pago_id":"5","fecha_venta":"2024-12-20 14:19:39","tipo_comprobante":"boleta","numero_comprobante":"B-1734704379","total":"100.00","estado":"completada","estado_pago":"pagado","referencia_pago":null,"direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"Cliente Test","cliente_apellido":"Apellido Test","cliente_dni":"89932680","cliente_telefono":null,"cliente_email":"cliente_1734704379@test.com","cliente_direccion":null,"usuario_nombre":"Usuario Test","usuario_apellido":"Apellido Test","usuario_email":"usuario_1734704379@test.com"}
+DEBUG - 2024-12-20 14:19:39 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '6'
+            
+DEBUG - 2024-12-20 14:19:39 --> Datos Detalles: [{"id_detalle_venta":"5","id_venta":"6","id_producto":"5","cantidad":"2","precio_unitario":"50.00","subtotal":"100.00","producto_nombre":"Producto Test 1734704379","codigo_barras":null,"producto_descripcion":"Descripci\u00f3n de prueba","categoria_nombre":"Categoria Test 1734704379"}]
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_cliente` FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id_cliente`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Duplicate entry 'cliente_1734704379@test.com' for key 'cliente.uk_cliente_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Duplicate entry 'usuario_1734704379@test.com' for key 'usuario.uk_usuario_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Duplicate entry 'B-1734704379' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:19:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(534): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->delete('7')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(283): Tests\Controllers\VentasTest->call('DELETE', 'admin/ventas/de...', NULL)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(216): Tests\Controllers\VentasTest->delete('admin/ventas/de...')
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testDelete()
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#22 {main}
+ERROR - 2024-12-20 14:23:56 --> Error en create venta: Trying to access array offset on value of type null
+ERROR - 2024-12-20 14:24:44 --> Error en create venta: Trying to access array offset on value of type null
+DEBUG - 2024-12-20 14:24:44 --> Datos recibidos en store: {"id_cliente":13,"id_usuario":13,"metodo_pago_id":13,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704684","total":150,"detalles":[{"id_producto":13,"cantidad":3,"precio_unitario":50,"subtotal":150}]}
+DEBUG - 2024-12-20 14:24:44 --> Datos preparados para inserción: {"id_cliente":13,"id_usuario":13,"metodo_pago_id":13,"tipo_comprobante":"boleta","numero_comprobante":"B-1734704684","total":150,"estado":"completada","estado_pago":"pagado"}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Duplicate entry 'B-1734704684' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(207): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->store()
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(244): Tests\Controllers\VentasTest->call('POST', 'ventas/store', Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(171): Tests\Controllers\VentasTest->post('ventas/store', Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testStoreCreatesNewVenta()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#22 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#23 {main}
+ERROR - 2024-12-20 14:24:44 --> Error en store: Error al insertar venta: {"CodeIgniter\\Database\\MySQLi\\Connection":"Duplicate entry 'B-1734704684' for key 'venta.uk_venta_comprobante'"}
+DEBUG - 2024-12-20 14:24:44 --> SQL Venta: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '16'
+            
+DEBUG - 2024-12-20 14:24:44 --> Datos Venta: {"id_venta":"16","id_cliente":"14","id_usuario":"14","metodo_pago_id":"14","fecha_venta":"2024-12-20 14:24:44","tipo_comprobante":"boleta","numero_comprobante":"B-1734704684","total":"100.00","estado":"completada","estado_pago":"pagado","referencia_pago":null,"direccion_envio":null,"costo_envio":"0.00","notas":null,"cliente_nombre":"Cliente Test","cliente_apellido":"Apellido Test","cliente_dni":"23774972","cliente_telefono":null,"cliente_email":"cliente_1734704684@test.com","cliente_direccion":null,"usuario_nombre":"Usuario Test","usuario_apellido":"Apellido Test","usuario_email":"usuario_1734704684@test.com"}
+DEBUG - 2024-12-20 14:24:44 --> SQL Detalles: 
+                SELECT 
+                    dv.*,
+                    p.nombre as producto_nombre,
+                    p.codigo_barras,
+                    p.descripcion as producto_descripcion,
+                    c.nombre as categoria_nombre
+                FROM detalle_venta dv
+                JOIN producto p ON dv.id_producto = p.id_producto
+                JOIN categoria c ON p.id_categoria = c.id_categoria
+                WHERE dv.id_venta = '16'
+            
+DEBUG - 2024-12-20 14:24:44 --> Datos Detalles: [{"id_detalle_venta":"14","id_venta":"16","id_producto":"14","cantidad":"2","precio_unitario":"50.00","subtotal":"100.00","producto_nombre":"Producto Test 1734704684","codigo_barras":null,"producto_descripcion":"Descripci\u00f3n de prueba","categoria_nombre":"Categoria Test 1734704684"}]
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_cliente` FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id_cliente`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(241): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(251): Tests\Controllers\VentasTest->cleanup()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Duplicate entry 'cliente_1734704684@test.com' for key 'cliente.uk_cliente_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Duplicate entry 'usuario_1734704684@test.com' for key 'usuario.uk_usuario_email' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Duplicate entry 'B-1734704684' for key 'venta.uk_venta_comprobante' in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:24:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket_test`.`detalle_venta`, CONSTRAINT `fk_detalle_venta_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(107): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(31): Tests\Controllers\VentasTest->setupTestData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\VentasTest->setUp()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2343): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(507): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:26:37 --> Error en create venta: Trying to access array offset on value of type null
+ERROR - 2024-12-20 14:26:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(292): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->actualizarEstadoPago('1')
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(244): Tests\Controllers\VentasTest->call('POST', 'admin/ventas/ac...', Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(120): Tests\Controllers\VentasTest->post('admin/ventas/ac...', Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testActualizarEstadoPago()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#22 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#23 {main}
+ERROR - 2024-12-20 14:29:12 --> Error en create venta: Trying to access array offset on value of type null
+ERROR - 2024-12-20 14:29:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket_test`.`seguimiento_pedido`, CONSTRAINT `fk_seguimiento_venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id_venta`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php(292): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(933): App\Controllers\Ventas->actualizarEstadoPago('1')
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(211): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Test\FeatureTestTrait.php(244): Tests\Controllers\VentasTest->call('POST', 'admin/ventas/ac...', Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\VentasTest.php(207): Tests\Controllers\VentasTest->post('admin/ventas/ac...', Array)
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\VentasTest->testActualizarEstadoPago()
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#16 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#17 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\VentasTest))
+#18 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#19 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#20 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#21 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#22 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#23 {main}
+ERROR - 2024-12-20 14:29:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2746): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', NULL, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Model.php(930): CodeIgniter\Database\BaseBuilder->emptyTable()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php(43): CodeIgniter\Model->__call('emptyTable', Array)
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2429): Tests\Controllers\MetodoPagoTest->tearDown()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(2388): PHPUnit\Framework\TestCase->invokeHookMethods(Object(PHPUnit\Runner\HookMethodCollection), Object(PHPUnit\Event\DispatchingEmitter), 'testAfterTestMe...', 'testAfterTestMe...')
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(613): PHPUnit\Framework\TestCase->invokeAfterTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\MetodoPagoTest))
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#14 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#15 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#16 {main}
+ERROR - 2024-12-20 14:35:19 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php(139): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\MetodoPagoTest->testCannotDeletePaymentMethodWithRelatedData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\MetodoPagoTest))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#14 {main}
+ERROR - 2024-12-20 14:37:03 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket_test`.`venta`, CONSTRAINT `fk_venta_metodo_pago` FOREIGN KEY (`metodo_pago_id`) REFERENCES `metodo_pago` (`id_metodo_pago`)) in C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\laragon\www\PAF-CALIDAD-MINIMARKET\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\laragon\www\PAF-CALIDAD-MINIMARKET\tests\Controllers\MetodoPagoTest.php(152): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(1234): Tests\Controllers\MetodoPagoTest->testCannotDeletePaymentMethodWithRelatedData()
+#6 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(515): PHPUnit\Framework\TestCase->runTest()
+#7 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestRunner\TestRunner.php(87): PHPUnit\Framework\TestCase->runBare()
+#8 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestCase.php(362): PHPUnit\Framework\TestRunner->run(Object(Tests\Controllers\MetodoPagoTest))
+#9 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\Framework\TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#10 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#11 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\src\TextUI\Application.php(210): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#12 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#13 C:\laragon\www\PAF-CALIDAD-MINIMARKET\vendor\bin\phpunit(122): include('C:\\laragon\\www\\...')
+#14 {main}

@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1734108333">
-  <project timestamp="1734108333">
-    <file name="C:\laragon\www\paf\app\Common.php">
+<coverage generated="1734705423">
+  <project timestamp="1734705423">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Common.php">
       <metrics loc="16" ncloc="3" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <package name="Config">
-      <file name="C:\laragon\www\paf\app\Config\App.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\App.php">
         <class name="Config\App" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="203" ncloc="35" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Autoload.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Autoload.php">
         <class name="Config\Autoload" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="95" ncloc="19" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\CURLRequest.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\CURLRequest.php">
         <class name="Config\CURLRequest" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="21" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Cache.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Cache.php">
         <class name="Config\Cache" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="172" ncloc="59" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\ContentSecurityPolicy.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\ContentSecurityPolicy.php">
         <class name="Config\ContentSecurityPolicy" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="177" ncloc="55" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Cookie.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Cookie.php">
         <class name="Config\Cookie" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="108" ncloc="26" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Cors.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Cors.php">
         <class name="Config\Cors" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="106" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Database.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Database.php">
         <class name="Config\Database" namespace="Config">
           <metrics complexity="9" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
         </class>
-        <line num="177" type="method" name="__construct" visibility="public" complexity="9" crap="9" count="1"/>
-        <line num="179" type="stmt" count="1"/>
-        <line num="181" type="stmt" count="1"/>
-        <line num="182" type="stmt" count="1"/>
-        <line num="185" type="stmt" count="1"/>
-        <line num="186" type="stmt" count="1"/>
-        <line num="190" type="stmt" count="1"/>
-        <line num="191" type="stmt" count="1"/>
-        <line num="192" type="stmt" count="1"/>
-        <line num="193" type="stmt" count="1"/>
-        <line num="194" type="stmt" count="1"/>
-        <line num="195" type="stmt" count="1"/>
+        <line num="177" type="method" name="__construct" visibility="public" complexity="9" crap="9" count="2"/>
+        <line num="179" type="stmt" count="2"/>
+        <line num="181" type="stmt" count="2"/>
+        <line num="182" type="stmt" count="2"/>
+        <line num="185" type="stmt" count="2"/>
+        <line num="186" type="stmt" count="2"/>
+        <line num="190" type="stmt" count="2"/>
+        <line num="191" type="stmt" count="2"/>
+        <line num="192" type="stmt" count="2"/>
+        <line num="193" type="stmt" count="2"/>
+        <line num="194" type="stmt" count="2"/>
+        <line num="195" type="stmt" count="2"/>
         <metrics loc="198" ncloc="77" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\DocTypes.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\DocTypes.php">
         <class name="Config\DocTypes" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="47" ncloc="31" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Email.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Email.php">
         <class name="Config\Email" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="122" ncloc="55" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Encryption.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Encryption.php">
         <class name="Config\Encryption" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="93" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Exceptions.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Exceptions.php">
         <class name="Config\Exceptions" namespace="Config">
           <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
@@ -91,67 +91,67 @@
         <line num="104" type="stmt" count="0"/>
         <metrics loc="107" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Feature.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Feature.php">
         <class name="Config\Feature" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="30" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Filters.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Filters.php">
         <class name="Config\Filters" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="109" ncloc="56" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\ForeignCharacters.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\ForeignCharacters.php">
         <class name="Config\ForeignCharacters" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="13" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Format.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Format.php">
         <class name="Config\Format" namespace="Config">
           <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="78" ncloc="34" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Generators.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Generators.php">
         <class name="Config\Generators" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="45" ncloc="26" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Honeypot.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Honeypot.php">
         <class name="Config\Honeypot" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="43" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Images.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Images.php">
         <class name="Config\Images" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="32" ncloc="20" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Kint.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Kint.php">
         <class name="Config\Kint" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="66" ncloc="32" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Logger.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Logger.php">
         <class name="Config\Logger" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="151" ncloc="62" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Migrations.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Migrations.php">
         <class name="Config\Migrations" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="51" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Mimes.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Mimes.php">
         <class name="Config\Mimes" namespace="Config">
           <metrics complexity="9" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
         </class>
@@ -173,118 +173,118 @@
         <line num="534" type="stmt" count="0"/>
         <metrics loc="537" ncloc="501" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Modules.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Modules.php">
         <class name="Config\Modules" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="85" ncloc="23" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Optimize.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Optimize.php">
         <class name="Config\Optimize" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="33" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Pager.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Pager.php">
         <class name="Config\Pager" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="38" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Paths.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Paths.php">
         <class name="Config\Paths" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="81" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Publisher.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Publisher.php">
         <class name="Config\Publisher" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="29" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Routing.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Routing.php">
         <class name="Config\Routing" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="141" ncloc="34" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Security.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Security.php">
         <class name="Config\Security" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="104" ncloc="27" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Services.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Services.php">
         <class name="Config\Services" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="33" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Session.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Session.php">
         <class name="Config\Session" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="128" ncloc="31" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Toolbar.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Toolbar.php">
         <class name="Config\Toolbar" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="123" ncloc="42" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\UserAgents.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\UserAgents.php">
         <class name="Config\UserAgents" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="253" ncloc="192" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\Validation.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Validation.php">
         <class name="Config\Validation" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="45" ncloc="27" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Config\View.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\View.php">
         <class name="Config\View" namespace="Config">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="63" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <file name="C:\laragon\www\paf\app\Config\Boot\development.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Boot\development.php">
       <line num="13" type="stmt" count="0"/>
       <line num="14" type="stmt" count="0"/>
       <line num="24" type="stmt" count="0"/>
       <line num="34" type="stmt" count="0"/>
       <metrics loc="35" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="C:\laragon\www\paf\app\Config\Boot\production.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Boot\production.php">
       <line num="12" type="stmt" count="0"/>
       <line num="15" type="stmt" count="0"/>
       <line num="25" type="stmt" count="0"/>
       <metrics loc="26" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="3" coveredelements="0"/>
     </file>
-    <file name="C:\laragon\www\paf\app\Config\Boot\testing.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Boot\testing.php">
       <line num="17" type="stmt" count="0"/>
       <line num="18" type="stmt" count="0"/>
       <line num="28" type="stmt" count="0"/>
       <line num="38" type="stmt" count="0"/>
       <metrics loc="39" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="C:\laragon\www\paf\app\Config\Constants.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Constants.php">
       <line num="16" type="stmt" count="0"/>
       <line num="26" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <line num="37" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
       <line num="38" type="stmt" count="0"/>
       <line num="39" type="stmt" count="0"/>
       <line num="40" type="stmt" count="0"/>
       <line num="41" type="stmt" count="0"/>
       <line num="42" type="stmt" count="0"/>
       <line num="43" type="stmt" count="0"/>
-      <line num="70" type="stmt" count="0"/>
-      <line num="71" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
       <line num="72" type="stmt" count="0"/>
       <line num="73" type="stmt" count="0"/>
       <line num="74" type="stmt" count="0"/>
@@ -293,12 +293,14 @@
       <line num="77" type="stmt" count="0"/>
       <line num="78" type="stmt" count="0"/>
       <line num="79" type="stmt" count="0"/>
-      <line num="84" type="stmt" count="0"/>
-      <line num="89" type="stmt" count="0"/>
-      <line num="94" type="stmt" count="0"/>
-      <metrics loc="95" ncloc="22" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="23" coveredelements="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="81" type="stmt" count="0"/>
+      <line num="86" type="stmt" count="0"/>
+      <line num="91" type="stmt" count="0"/>
+      <line num="96" type="stmt" count="0"/>
+      <metrics loc="97" ncloc="24" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="25" coveredelements="0"/>
     </file>
-    <file name="C:\laragon\www\paf\app\Config\Events.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Config\Events.php">
       <line num="26" type="stmt" count="1"/>
       <line num="27" type="stmt" count="1"/>
       <line num="28" type="stmt" count="0"/>
@@ -317,7 +319,7 @@
       <metrics loc="56" ncloc="33" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="4" elements="15" coveredelements="4"/>
     </file>
     <package name="App\Controllers">
-      <file name="C:\laragon\www\paf\app\Controllers\Account.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Account.php">
         <class name="App\Controllers\Account" namespace="App\Controllers">
           <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
         </class>
@@ -328,7 +330,7 @@
         <line num="13" type="stmt" count="0"/>
         <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\BaseController.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\BaseController.php">
         <class name="App\Controllers\BaseController" namespace="App\Controllers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
@@ -337,7 +339,7 @@
         <line num="57" type="stmt" count="1"/>
         <metrics loc="60" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Categorias.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Categorias.php">
         <class name="App\Controllers\Categorias" namespace="App\Controllers">
           <metrics complexity="6" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="33" coveredelements="0"/>
         </class>
@@ -376,7 +378,7 @@
         <line num="56" type="stmt" count="0"/>
         <metrics loc="58" ncloc="58" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="33" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Clientes.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Clientes.php">
         <class name="App\Controllers\Clientes" namespace="App\Controllers">
           <metrics complexity="23" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="124" coveredstatements="0" elements="131" coveredelements="0"/>
         </class>
@@ -513,7 +515,7 @@
         <line num="218" type="stmt" count="0"/>
         <metrics loc="221" ncloc="207" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="124" coveredstatements="0" elements="131" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Home.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Home.php">
         <class name="App\Controllers\Home" namespace="App\Controllers">
           <metrics complexity="11" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="0" elements="95" coveredelements="0"/>
         </class>
@@ -614,7 +616,7 @@
         <line num="179" type="stmt" count="0"/>
         <metrics loc="182" ncloc="168" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="0" elements="95" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Login.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Login.php">
         <class name="App\Controllers\Login" namespace="App\Controllers">
           <metrics complexity="6" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="34" coveredelements="0"/>
         </class>
@@ -654,7 +656,7 @@
         <line num="57" type="stmt" count="0"/>
         <metrics loc="59" ncloc="55" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="34" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\MetodoPago.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\MetodoPago.php">
         <class name="App\Controllers\MetodoPago" namespace="App\Controllers">
           <metrics complexity="4" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="9" elements="16" coveredelements="11"/>
         </class>
@@ -676,7 +678,7 @@
         <line num="37" type="stmt" count="1"/>
         <metrics loc="40" ncloc="40" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="9" elements="16" coveredelements="11"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Productos.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Productos.php">
         <class name="App\Controllers\Productos" namespace="App\Controllers">
           <metrics complexity="24" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="153" coveredstatements="0" elements="159" coveredelements="0"/>
         </class>
@@ -841,7 +843,7 @@
         <line num="243" type="stmt" count="0"/>
         <metrics loc="247" ncloc="241" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="153" coveredstatements="0" elements="159" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Tienda.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Tienda.php">
         <class name="App\Controllers\Tienda" namespace="App\Controllers">
           <metrics complexity="66" methods="17" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="488" coveredstatements="0" elements="505" coveredelements="0"/>
         </class>
@@ -1352,7 +1354,7 @@
         <line num="763" type="stmt" count="0"/>
         <metrics loc="766" ncloc="731" classes="1" methods="17" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="488" coveredstatements="0" elements="505" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Controllers\Ventas.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Controllers\Ventas.php">
         <class name="App\Controllers\Ventas" namespace="App\Controllers">
           <metrics complexity="46" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="304" coveredstatements="0" elements="315" coveredelements="0"/>
         </class>
@@ -1675,7 +1677,7 @@
       </file>
     </package>
     <package name="App\Filters">
-      <file name="C:\laragon\www\paf\app\Filters\AuthFilter.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Filters\AuthFilter.php">
         <class name="App\Filters\AuthFilter" namespace="App\Filters">
           <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
         </class>
@@ -1692,12 +1694,12 @@
         <metrics loc="29" ncloc="27" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
       </file>
     </package>
-    <file name="C:\laragon\www\paf\app\Language\en\Validation.php">
+    <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Language\en\Validation.php">
       <line num="4" type="stmt" count="0"/>
       <metrics loc="5" ncloc="4" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
     </file>
     <package name="App\Models">
-      <file name="C:\laragon\www\paf\app\Models\CarritoItemModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\CarritoItemModel.php">
         <class name="App\Models\CarritoItemModel" namespace="App\Models">
           <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
         </class>
@@ -1712,43 +1714,43 @@
         <line num="32" type="stmt" count="0"/>
         <metrics loc="35" ncloc="32" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\CarritoModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\CarritoModel.php">
         <class name="App\Models\CarritoModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="18" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\CategoriaModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\CategoriaModel.php">
         <class name="App\Models\CategoriaModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\ClienteModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\ClienteModel.php">
         <class name="App\Models\ClienteModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="29" ncloc="28" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\CompraModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\CompraModel.php">
         <class name="App\Models\CompraModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\DetalleCompraModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\DetalleCompraModel.php">
         <class name="App\Models\DetalleCompraModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\DetalleVentaModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\DetalleVentaModel.php">
         <class name="App\Models\DetalleVentaModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\MetodoPagoModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\MetodoPagoModel.php">
         <class name="App\Models\MetodoPagoModel" namespace="App\Models">
           <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
@@ -1756,7 +1758,7 @@
         <line num="21" type="stmt" count="0"/>
         <metrics loc="24" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\ProductoModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\ProductoModel.php">
         <class name="App\Models\ProductoModel" namespace="App\Models">
           <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
         </class>
@@ -1770,7 +1772,7 @@
         <line num="39" type="stmt" count="0"/>
         <metrics loc="41" ncloc="39" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\SeguimientoPedidoModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\SeguimientoPedidoModel.php">
         <class name="App\Models\SeguimientoPedidoModel" namespace="App\Models">
           <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
         </class>
@@ -1786,7 +1788,7 @@
         <line num="38" type="stmt" count="0"/>
         <metrics loc="41" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\UsuarioModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\UsuarioModel.php">
         <class name="App\Models\UsuarioModel" namespace="App\Models">
           <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
@@ -1796,13 +1798,13 @@
         <line num="19" type="stmt" count="0"/>
         <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
-      <file name="C:\laragon\www\paf\app\Models\VentaModel.php">
+      <file name="C:\laragon\www\PAF-CALIDAD-MINIMARKET\app\Models\VentaModel.php">
         <class name="App\Models\VentaModel" namespace="App\Models">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="36" ncloc="34" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="66" loc="6553" ncloc="4158" classes="19" methods="69" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="1350" coveredstatements="26" elements="1419" coveredelements="30"/>
+    <metrics files="66" loc="6555" ncloc="4160" classes="19" methods="69" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="1352" coveredstatements="26" elements="1421" coveredelements="30"/>
   </project>
 </coverage>

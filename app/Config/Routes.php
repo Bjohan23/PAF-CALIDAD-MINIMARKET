@@ -59,6 +59,12 @@ $routes->group('admin', function ($routes) {
     // $routes->post('ventas/store', 'Ventas::store');            // Guardar venta
     $routes->get('ventas/edit/(:num)', 'Ventas::edit/$1');     // Editar venta
     $routes->post('ventas/update/(:num)', 'Ventas::update/$1'); // Guardar edición
+    // Rutas adicionales para Ventas
+    $routes->post('ventas/store', 'Ventas::store');
+    $routes->get('ventas/getDetalle/(:num)', 'Ventas::getDetalle/$1');
+    $routes->post('ventas/actualizarEstadoPago/(:num)', 'Ventas::actualizarEstadoPago/$1');
+    $routes->post('ventas/actualizarSeguimiento/(:num)', 'Ventas::actualizarSeguimiento/$1');
+    $routes->delete('ventas/delete/(:num)', 'Ventas::delete/$1');
 
 
 

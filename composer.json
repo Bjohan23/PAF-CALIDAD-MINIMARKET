@@ -68,6 +68,8 @@
     "test:clientes": "php vendor/bin/phpunit tests/Controllers/ClientesTest.php --dont-report-useless-tests",
     "test:account": "php vendor/bin/phpunit tests/Controllers/AccountTest.php --dont-report-useless-tests",
     "test:login": "php vendor/bin/phpunit tests/Controllers/LoginTest.php",
-    "test:metodop": "php vendor/bin/phpunit tests/Controllers/MetodoPagoTest.php"
+    "test:metodop": "php vendor/bin/phpunit tests/Controllers/MetodoPagoTest.php",
+    "test:home": "php vendor/bin/phpunit tests/Controllers/HomeTest.php",
+    "test:ventas": "phpunit tests/Controllers/VentasTest.php --colors=always"
   }
 }
